@@ -12,7 +12,7 @@ public class Movies {
     public Movies() {
     }
 
-    public void getNameSet() {
+    public void getMovieSet() {
         System.out.println(heroMovieMap);
     }
 }

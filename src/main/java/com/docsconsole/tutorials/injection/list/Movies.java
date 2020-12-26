@@ -7,12 +7,11 @@ import java.util.List;
 public class Movies {
 
     @Autowired
-    private List<String> nameList;
+    private List<String> movieList;
 
-    public Movies() {
-    }
+    public Movies() {}
 
-    public void getNameList() {
-        System.out.println(nameList);
+    public void getMovieList() {
+        System.out.println(movieList);
     }
 }

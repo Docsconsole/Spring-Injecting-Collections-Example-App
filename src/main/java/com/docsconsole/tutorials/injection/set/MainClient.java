@@ -9,7 +9,7 @@ public class MainClient {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         Movies Movies = context.getBean(com.docsconsole.tutorials.injection.set.Movies.class);
-        Movies.getNameSet();
+        Movies.getMovieSet();
 
     }
 }

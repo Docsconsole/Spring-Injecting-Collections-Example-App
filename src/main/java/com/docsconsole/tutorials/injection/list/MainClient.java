@@ -9,7 +9,7 @@ public class MainClient {
 
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         Movies Movies = context.getBean(Movies.class);
-        Movies.getNameList();
+        Movies.getMovieList();
 
     }
 }
