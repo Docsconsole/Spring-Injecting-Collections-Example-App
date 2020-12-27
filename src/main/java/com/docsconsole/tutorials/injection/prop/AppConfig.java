@@ -13,8 +13,8 @@ import org.springframework.context.annotation.PropertySource;
 public class AppConfig {
 
     @Bean
-    public ASpringBean getASpringBean() {
-        return new ASpringBean();
+    public Movie getASpringBean() {
+        return new Movie();
     }
 
 

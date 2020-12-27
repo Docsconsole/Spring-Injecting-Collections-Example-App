@@ -5,12 +5,12 @@ import lombok.Getter;
 import org.springframework.beans.factory.annotation.Value;
 
 @Getter
-public class ASpringBean {
+public class Movie {
 
-    @Value("${test.property.value}")
-    private String testProperty;
+    @Value("${test.movie.name}")
+    private String movieName;
 
-    public ASpringBean() {
+    public Movie() {
     }
 
 
